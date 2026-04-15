@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FarmaPoints — Sua saúde recompensa você</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner container">
+      <div class="logo">Farma<span>Points</span></div>
+      <a href="#cadastro" class="btn-nav">Cadastre-se grátis</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-circle"></div>
+    <div class="hero-bg-circle2"></div>
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="badge">Programa de fidelidade gratuito</span>
+        <h1>Cada real gasto<br/><em>vira desconto</em><br/>pra você.</h1>
+        <p class="hero-sub">Ganhe 1 ponto por R$ 1,00 em compras e resgate como desconto na sua próxima visita. Simples assim.</p>
+        <div class="hero-actions">
+          <a href="#cadastro" class="btn-primary">Cadastre-se grátis</a>
+          <a href="#como-funciona" class="btn-ghost">Como funciona ↓</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <strong>+12.000</strong>
+            <span>clientes cadastrados</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>R$ 480 mil</strong>
+            <span>em descontos concedidos</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>100%</strong>
+            <span>sem mensalidade</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card-wrap">
+        <div class="hero-card">
+          <div class="hc-top">
+            <span class="hc-label">Seu saldo</span>
+            <span class="hc-chip">Ativo</span>
+          </div>
+          <div class="hc-points">1.240 <span>pts</span></div>
+          <div class="hc-bar-label">
+            <span>Próximo resgate</span>
+            <span>1.240 / 1.500 pts</span>
+          </div>
+          <div class="hc-bar"><div class="hc-bar-fill" style="width:82%"></div></div>
+          <div class="hc-name">Ana Beatriz S.</div>
+          <div class="hc-transactions">
+            <div class="hc-tx">
+              <span>Compra — ontem</span>
+              <span class="green">+120 pts</span>
+            </div>
+            <div class="hc-tx">
+              <span>Compra — 3 dias atrás</span>
+              <span class="green">+85 pts</span>
+            </div>
+            <div class="hc-tx">
+              <span>Resgate usado</span>
+              <span class="muted">-500 pts</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-float-badge">1 ponto<br/>= R$ 0,01</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="steps" id="como-funciona">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Como funciona</span>
+        <h2>Três passos. Zero complicação.</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-icon icon-1">
+            <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="1.5"/><path d="M10 16h12M16 10v12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <div class="step-num">01</div>
+          <h3>Compre na loja</h3>
+          <p>Faça suas compras normalmente no caixa ou pelo nosso app. Todos os produtos participam.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step-card step-card--accent">
+          <div class="step-icon icon-2">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M16 4l2.8 8.6H28l-7.4 5.4 2.8 8.6L16 21.2l-7.4 5.4 2.8-8.6L4 12.6h9.2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="step-num">02</div>
+          <h3>Acumule pontos</h3>
+          <p>A cada R$ 1,00 gasto você ganha automaticamente 1 ponto. Os pontos nunca expiram.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step-card">
+          <div class="step-icon icon-3">
+            <svg viewBox="0 0 32 32" fill="none"><rect x="4" y="8" width="24" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M4 14h24" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="20" r="2" fill="currentColor"/></svg>
+          </div>
+          <div class="step-num">03</div>
+          <h3>Resgate como desconto</h3>
+          <p>Use seus pontos como desconto direto no caixa ou no app. Cada ponto vale R$ 0,01.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALCULADORA -->
+  <section class="calc-section" id="calculadora">
+    <div class="container">
+      <div class="calc-wrap">
+        <div class="calc-left">
+          <span class="section-tag section-tag--light">Calculadora</span>
+          <h2>Quanto você pode economizar?</h2>
+          <p>Simule sua economia anual com base no quanto você gasta na farmácia por mês.</p>
+          <div class="calc-field">
+            <label for="gasto">Gasto mensal estimado</label>
+            <div class="calc-input-wrap">
+              <span class="prefix">R$</span>
+              <input type="number" id="gasto" value="300" min="0" max="99999" />
+            </div>
+          </div>
+          <input type="range" id="slider" min="50" max="2000" value="300" step="10" />
+          <div class="range-labels"><span>R$ 50</span><span>R$ 2.000</span></div>
+        </div>
+        <div class="calc-right">
+          <div class="result-card">
+            <div class="result-row">
+              <span>Pontos por mês</span>
+              <strong id="pts-mes">300 pts</strong>
+            </div>
+            <div class="result-divider"></div>
+            <div class="result-row">
+              <span>Pontos em 12 meses</span>
+              <strong id="pts-ano">3.600 pts</strong>
+            </div>
+            <div class="result-divider"></div>
+            <div class="result-big">
+              <span>Você economiza por ano</span>
+              <div id="economia" class="result-value">R$ 36,00</div>
+            </div>
+            <a href="#cadastro" class="btn-primary btn-full">Quero economizar assim ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <section class="benefits" id="beneficios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Vantagens</span>
+        <h2>Por que vale entrar agora?</h2>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="currentColor"/></svg>
+          </div>
+          <h4>Sem mensalidade</h4>
+          <p>O cadastro e o programa são completamente gratuitos para sempre.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19a2 2 0 002 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z" fill="currentColor"/></svg>
+          </div>
+          <h4>Pontos não expiram</h4>
+          <p>Acumule no seu ritmo. Seus pontos ficam guardados sem prazo de validade.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h16v12zM6 10h2v2H6zm0 4h8v2H6zm10 0h2v2h-2zm-6-4h8v2h-8z" fill="currentColor"/></svg>
+          </div>
+          <h4>Todos os produtos</h4>
+          <p>Vale para medicamentos, cosméticos, higiene, vitaminas e tudo mais da loja.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z" fill="currentColor"/></svg>
+          </div>
+          <h4>App + Caixa</h4>
+          <p>Resgate pelo app na hora ou apresente seu CPF no caixa. Rápido e sem fila.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" fill="currentColor"/></svg>
+          </div>
+          <h4>100% seguro</h4>
+          <p>Seus dados são protegidos conforme a LGPD. Nunca repassamos a terceiros.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" fill="currentColor"/></svg>
+          </div>
+          <h4>Indique e ganhe</h4>
+          <p>Ganhe 200 pontos bônus para cada amigo que se cadastrar pelo seu link.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Depoimentos</span>
+        <h2>Quem já usa, aprova.</h2>
+      </div>
+      <div class="test-grid">
+        <div class="test-card">
+          <div class="stars">★★★★★</div>
+          <p>"Em seis meses acumulei pontos suficientes para pagar uma compra inteira de vitaminas. Não sabia que ia ser tão fácil assim."</p>
+          <div class="test-author">
+            <div class="avatar av1">MC</div>
+            <div>
+              <strong>Mariana Costa</strong>
+              <span>Cliente há 1 ano</span>
+            </div>
+          </div>
+        </div>
+        <div class="test-card test-card--featured">
+          <div class="stars">★★★★★</div>
+          <p>"Minha família toda se cadastrou. Agora a gente divide os pontos e usa pra comprar remédio do meu pai. Programa nota 10."</p>
+          <div class="test-author">
+            <div class="avatar av2">RS</div>
+            <div>
+              <strong>Roberto Souza</strong>
+              <span>Cliente há 2 anos</span>
+            </div>
+          </div>
+        </div>
+        <div class="test-card">
+          <div class="stars">★★★★★</div>
+          <p>"O app é simples demais. Consigo ver meus pontos na hora e o resgate no caixa é automático. Recomendo pra todo mundo."</p>
+          <div class="test-author">
+            <div class="avatar av3">FL</div>
+            <div>
+              <strong>Fernanda Lima</strong>
+              <span>Cliente há 8 meses</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Dúvidas</span>
+        <h2>Perguntas frequentes</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Como me cadastro no programa?</summary>
+          <p>Basta informar seu CPF no caixa na próxima compra ou se cadastrar pelo nosso app ou site. O cadastro é gratuito e leva menos de 2 minutos.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Os pontos têm prazo de validade?</summary>
+          <p>Não! Seus pontos ficam guardados indefinidamente. Acumule no seu ritmo, sem pressão.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Como faço o resgate dos pontos?</summary>
+          <p>No caixa, basta informar seu CPF e dizer que quer usar os pontos. Pelo app, ative o resgate antes de finalizar a compra. Simples assim.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Posso acumular pontos em compras online?</summary>
+          <p>Sim! Compras feitas pelo nosso site ou app também geram pontos normalmente, no mesmo esquema de 1 ponto por R$ 1,00.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Existe um número mínimo de pontos para resgatar?</summary>
+          <p>Sim, o mínimo para resgate é de 500 pontos (equivalente a R$ 5,00 de desconto), sem valor máximo por compra.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Posso transferir meus pontos para outra pessoa?</summary>
+          <p>Ainda não oferecemos transferência entre contas, mas estamos trabalhando nessa funcionalidade. Cadastre-se para ser notificado quando estiver disponível.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-final" id="cadastro">
+    <div class="container">
+      <div class="cta-inner">
+        <div class="cta-text">
+          <span class="badge badge--light">Comece hoje</span>
+          <h2>Sua próxima compra já pode<br/>render pontos pra você.</h2>
+          <p>Cadastro gratuito, pontos que não expiram e descontos reais. O que você está esperando?</p>
+          <form class="cta-form" onsubmit="handleForm(event)">
+            <div class="form-group">
+              <input type="text" placeholder="Seu nome completo" required />
+              <input type="tel" placeholder="Seu CPF (apenas números)" required />
+              <input type="email" placeholder="Seu e-mail" required />
+            </div>
+            <button type="submit" class="btn-primary btn-full btn-large">Quero meus pontos agora →</button>
+            <p class="form-note">Cadastro 100% gratuito. Sem spam, sem mensalidade, sem pegadinha.</p>
+          </form>
+          <div id="form-success" class="form-success" style="display:none">
+            <div class="success-icon">✓</div>
+            <strong>Cadastro realizado!</strong>
+            <p>Bem-vindo ao FarmaPoints. Informe seu CPF na próxima compra e comece a ganhar pontos!</p>
+          </div>
+        </div>
+        <div class="cta-deco">
+          <div class="deco-card">
+            <div class="deco-top">Bônus de boas-vindas</div>
+            <div class="deco-pts">+200 pts</div>
+            <div class="deco-sub">no cadastro</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="logo">Farma<span>Points</span></div>
+      <p>© 2025 FarmaPoints. Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="#">Termos de uso</a>
+        <a href="#">Privacidade</a>
+        <a href="#">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const gastoInput = document.getElementById('gasto');
+    const slider = document.getElementById('slider');
+
+    function atualizar(val) {
+      const v = Math.max(0, parseInt(val) || 0);
+      const mes = v;
+      const ano = v * 12;
+      const eco = (ano * 0.01).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+      document.getElementById('pts-mes').textContent = mes.toLocaleString('pt-BR') + ' pts';
+      document.getElementById('pts-ano').textContent = ano.toLocaleString('pt-BR') + ' pts';
+      document.getElementById('economia').textContent = eco;
+    }
+
+    gastoInput.addEventListener('input', function() {
+      slider.value = Math.min(2000, Math.max(50, this.value));
+      atualizar(this.value);
+    });
+
+    slider.addEventListener('input', function() {
+      gastoInput.value = this.value;
+      atualizar(this.value);
+    });
+
+    function handleForm(e) {
+      e.preventDefault();
+      e.target.style.display = 'none';
+      document.getElementById('form-success').style.display = 'flex';
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>
